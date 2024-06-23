@@ -280,6 +280,7 @@ const MAX_DATE_PICKER_LOOKUP = 12 * 4;
         await browser.close();
         return false;
       }
+      log("Appointments may be available! Scrolling for dates");
     }
 
     // Click on date input
